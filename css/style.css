@@ -10,7 +10,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 	margin: 0;
 }
 
-html {
+html , body{
 	font-size: 10px;
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
@@ -299,6 +299,8 @@ p {
 	margin-top: 50px;
 	
 }
+
+
 .show_project>h2{
 	padding: 10px;
 	background: rgb(31, 30, 30);
@@ -361,7 +363,7 @@ p {
 	margin: 0 auto;
 	padding: 100px 0;
 }
-#projects .projects a:last-child{
+#projects .projects a.github{
 	text-align: center;
 	font-size: 20px;
 	padding: 10px;
@@ -738,5 +740,17 @@ p {
 	#services .service-bottom .service-item {
 		flex-basis: 22%;
 		margin: 1.5%;
+	}
+
+
+}
+@media only screen and (max-width: 700px) {
+	#services .service-bottom canvas{
+		width: 300px;
+	}
+}
+@media only screen and (max-width: 400px) {
+	#services .service-bottom canvas{
+		width: 250px;
 	}
 }

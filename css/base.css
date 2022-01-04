@@ -131,7 +131,7 @@ a:focus-visible {
 	display: flex;
 	flex-direction: column;
 	width: 100vw;
-	height: calc(100vh - 13rem);
+	height: calc(50vh - 13rem);
 	position: relative;
 	justify-content: flex-start;
 	align-items: center;
@@ -139,7 +139,7 @@ a:focus-visible {
 
 .menu {
 	text-align: center;
-	padding-top: 10vh;
+    padding-top: 15vh;
 }
 
 .menu__item {
